@@ -1,0 +1,75 @@
+
+body{    
+        
+}
+h4{
+    margin:0px;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.big-text h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin:0px;
+    font-family: 'roboto';
+    
+}
+.big-text p{
+    margin:0px;
+    font-size: 18px;
+    color:#E5E7EB;
+    font-family: "roboto";
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    gap:100px;
+    background-color: #1F2937;
+    padding: 10px 110px;
+    padding-bottom: 120px;
+         
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+.text-pic{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px
+}
+
+.right-links{
+    display: flex;
+    gap: 15px;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+button{
+    background-color: #3882f6;
+    color: #E5E7EB;
+    font-weight: bold;    
+    border: none;
+    padding: 8px 30px;
+    margin-top:16px;
+    border-radius: 6px;
+}
+
+
+.goku{
+    width: 420px;
+    height: 200px; 
+       
+}   
+
+.pic{
+    width: 100px;
+    height: 100px;
+}
