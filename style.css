@@ -1,6 +1,6 @@
 
 html{
-    background-image: Menu_Theme_The_Eternal_Ordeal.webp;
+    background-color:black
 }
 
 body{
@@ -43,6 +43,7 @@ h4{
     background-color: #1F2937;
     padding: 10px 110px;
     padding-bottom: 120px;
+
          
 }
 .top{
@@ -91,7 +92,8 @@ button{
     align-items: center;
     padding-top: 25px;
     padding-bottom:55px;
-    gap:25px
+    gap:25px;
+    background-color: white;
     
 
 }
@@ -121,7 +123,8 @@ h3{
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB ;
-    padding: 100px
+    padding: 100px;
+    
 }
 cite{
     text-align: left;
@@ -137,9 +140,10 @@ strong{
 
 .bottom{
     display: flex;  
-    
-    
+       
     justify-content: center;
+    padding: 70px;
+    background-color: white;
     
 
     
@@ -183,5 +187,12 @@ strong{
     background-color: #3882f6;
     border-radius: 8px;
     gap:200px;
+}
+/*footer*/
+.footer{
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 30px;
+    text-align: center;
 }
 
