@@ -1,7 +1,17 @@
 
-body{    
+html{
+    background-image: Menu_Theme_The_Eternal_Ordeal.webp;
+}
+
+body{
+    
+    max-width: 1200px;
+    margin:auto
         
 }
+
+/*section 1*/
+
 h4{
     margin:0px;
     font-size: 24px;
@@ -13,14 +23,14 @@ h4{
     font-weight: bolder;
     color: #F9FAF8;
     margin:0px;
-    font-family: 'roboto';
+    
     
 }
 .big-text p{
     margin:0px;
     font-size: 18px;
     color:#E5E7EB;
-    font-family: "roboto";
+   
 }
 
 .header{
@@ -63,13 +73,42 @@ button{
 }
 
 
-.goku{
-    width: 420px;
-    height: 200px; 
-       
-}   
-
 .pic{
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
+    border:5px solid;
+    border-color:#3882f6 ;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+/*section 2*/
+.middle-one{
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom:55px;
+    gap:25px
+    
+
+}
+.squares{
+    display: flex;       
+   gap:100px
+
+}
+.square-one, .square-two, .square-three, .square-four{
+    display:flex ;
+    flex-direction: column;    
+    flex-wrap: wrap;
+    max-width: 100px;    
+}
+h3{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+.squares p{
+    text-align: center;
 }
