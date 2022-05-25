@@ -1,12 +1,16 @@
 
 html{
-    background-color:black
+    
 }
 
 body{
     
     max-width: 1200px;
-    margin:auto
+    margin:auto;
+    background-image: url(Menu_Theme_The_Eternal_Ordeal.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
         
 }
 
@@ -43,9 +47,18 @@ h4{
     background-color: #1F2937;
     padding: 10px 110px;
     padding-bottom: 120px;
-
-         
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+             
 }
+
+.big-pic em{
+    display: flex;
+    color: #E5E7EB;
+    font-size: 18px;
+    justify-content: flex-end;
+}
+
 .top{
     display: flex;
     justify-content: space-between;
@@ -93,7 +106,7 @@ button{
     padding-top: 25px;
     padding-bottom:55px;
     gap:25px;
-    background-color: white;
+    
     
 
 }
@@ -101,6 +114,9 @@ button{
     display: flex;       
    gap:100px
 
+}
+.squares p{
+    color: #E5E7EB;
 }
 .square-one, .square-two, .square-three, .square-four{
     display:flex ;
@@ -111,7 +127,8 @@ button{
 h3{
     font-size: 36px;
     font-weight: bolder;
-    color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
 }
 .squares p{
     text-align: center;
@@ -123,7 +140,9 @@ h3{
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB ;
-    padding: 100px;
+    padding: 120px 180px;
+    border-radius: 8px;
+    gap:20px
     
 }
 cite{
@@ -142,8 +161,8 @@ strong{
     display: flex;  
        
     justify-content: center;
-    padding: 70px;
-    background-color: white;
+    padding: 100px;
+    
     
 
     
@@ -194,5 +213,7 @@ strong{
     color: #E5E7EB;
     padding: 30px;
     text-align: center;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
 }
 
