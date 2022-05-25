@@ -112,3 +112,21 @@ h3{
 .squares p{
     text-align: center;
 }
+
+/*section 3*/
+
+.middle-two{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB ;
+    padding: 100px
+}
+cite{
+    text-align: left;
+    font-size: 36px;
+    color: #1F2937;
+}
+strong{
+    text-align: end;
+    font-size: 20px;
+}
