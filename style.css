@@ -23,6 +23,8 @@ h4{
     font-weight: bolder;
     color: #F9FAF8;
     margin:0px;
+    padding-top: 15px;
+    padding-bottom: 10px
     
     
 }
@@ -30,7 +32,7 @@ h4{
     margin:0px;
     font-size: 18px;
     color:#E5E7EB;
-   
+    
 }
 
 .header{
@@ -131,4 +133,55 @@ strong{
     font-size: 20px;
 }
 
-/*section 4/
+/*section 4*/
+
+.bottom{
+    display: flex;  
+    
+    
+    justify-content: center;
+    
+
+    
+    
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: auto;
+    margin:auto;
+    gap:5px;
+   
+    
+}
+.bottom button{
+    margin:0px;
+    border-color: #E5E7EB;
+    border:2px solid;
+    padding: 8px 30px;
+
+}
+.text p{
+    padding:0px;
+    margin:0px
+}
+.top-blue{
+    font-size: 20px;
+    color: #E5E7EB;
+    font-weight: bolder;
+}
+.bottom-blue{
+    color:#E5E7EB;
+    font-size: 16px;
+    
+}
+.around-text{
+    display: flex;
+    padding:50px;
+    margin:50px;
+    background-color: #3882f6;
+    border-radius: 8px;
+    gap:200px;
+}
+
